@@ -8,6 +8,8 @@ Welcome in this repository about "Understanding Kubernetes in a visual way" book
 
 In this repository you can open Issue if you found some spelling mistakes or troubles or losing new things in the book.
 
+FYI, the latest verszion of the book is 2.0.3.
+
 Thanks!
 
 ## Books
