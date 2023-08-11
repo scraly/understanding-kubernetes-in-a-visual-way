@@ -19,5 +19,5 @@ Thanks!
 
 ### Digital books on Gumroad:
 * [Understanding Kubernetes in a visual way](https://gumroad.com/aurelievache#uCxcr)
-* [Understanding Istio in a visual way](https://gumroad.com/aurelievache#vJYhM)
 * [Understanding Docker in a visual way](https://gumroad.com/aurelievache#YTLzM)
+* [Understanding Istio in a visual way](https://gumroad.com/aurelievache#vJYhM)
