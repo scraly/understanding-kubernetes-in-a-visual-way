@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: service-traffic-example
+  name: receiver
+  namespace: prefer-close
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: service-traffic-example
+  template:
+    metadata:
+      labels:
+        app: service-traffic-example
+    spec:
+      containers:
+      - image: gcr.io/google-samples/hello-app:2.0
+        name: receiver
+        ports:
+        - containerPort: 8080

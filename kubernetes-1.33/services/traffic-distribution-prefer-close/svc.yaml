@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-prefer-close
+  namespace: prefer-close
+  annotations:
+    service.kubernetes.io/topology-mode: auto
+spec:
+  ports:
+    - name: http
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  selector:
+    app: service-traffic-example
+  type: ClusterIP
+  trafficDistribution: PreferClose
